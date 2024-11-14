@@ -409,14 +409,14 @@ export const EditUser = () => {
                             }
                         </Form>
                     </Row>
-                    <Row className="g-2" style={{ marginLeft: "629px" }}>
-                        <Col md style={{ textAlign: "right" }}>
-                            <Button onClick={formClear} style={clearbuttonStyle}>Clear</Button>
+                    <Row className='mt-2 mb-150'>
+                        <Col xs={12}>
+                            <div className='btn-wrap'>
+                               <Button onClick={formClear} style={clearbuttonStyle}>Clear</Button>
+                               <Button onClick={editUser} style={submitbuttonStyle} className='mx-2'>Update</Button>
+                            </div>
                         </Col>
-                        <Col md>
-                            <Button onClick={editUser} style={submitbuttonStyle}>Update</Button>
-                        </Col>
-                    </Row>
+                    </Row>    
                 </Container>
 
             </AdminLayout>

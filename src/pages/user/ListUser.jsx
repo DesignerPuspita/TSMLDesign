@@ -161,10 +161,13 @@ export const ListUser = () => {
             )}
             <AdminLayout>
                 <Container fluid="true">
+                   {/* Design Change */}
                     <Row>
                         <Col xs ={12} md={6}><p className='page_left_panel'>List User</p></Col>
                         <Col xs ={12} md={6}><p className='page_right_panel'><span style={{ cursor: 'pointer' }} onClick={handleNavigate}>Dashboard</span> / List User</p></Col>
                     </Row>
+                    {/* Design Change */}
+                    {/* Design Change2 */}
                     <div className="mainWrap">
                         <div className='topShadow'>
                             <Row>
@@ -278,6 +281,8 @@ export const ListUser = () => {
                             </Col>
                         </Row>
                     </div>
+                    {/* Design Change2 */}
+                    {/* Design Change */}
                     <Row className='mt-2 mb-150'>
                         <Col xs={12}>
                             <div className='btn-wrap'>
@@ -286,6 +291,7 @@ export const ListUser = () => {
                             </div>
                         </Col>
                     </Row>
+                    {/* Design Change */}
                 </Container>
             </AdminLayout>
         </>
