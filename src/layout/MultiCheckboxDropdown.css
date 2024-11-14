@@ -1,0 +1,41 @@
+.multi-checkbox-dropdown {
+    position: relative;
+    display: inline;
+    width: 480px; 
+}
+
+.dropdown-button {
+    padding: 7px;
+    background-color: #3A85E5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: -98px;
+    width: inherit;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-item {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-item input {
+    margin-right: 8px;
+}
